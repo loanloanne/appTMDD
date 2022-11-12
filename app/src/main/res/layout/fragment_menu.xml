@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    tools:context=".MenuFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/chonCuaHang"
+                    app:startIconDrawable="@drawable/location"
+                    >
+                    <AutoCompleteTextView
+                        android:id="@+id/autoComplete"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        android:shadowColor="#fff"
+                        android:backgroundTint="#fff"/>
+                </com.google.android.material.textfield.TextInputLayout>
+<!--        Tim sp-->
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/searchView"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/search_view_bg"
+                android:layout_margin="8dp"
+                app:iconifiedByDefault="false"
+                app:queryHint="Grass-Jerry-Milk-Coffee"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/shopping_cart"/>
+    </LinearLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:gravity="center"
+        >
+
+        <TableRow
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/btn_TatCa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Tất cả"
+                android:textAllCaps="false"
+                android:textColor="@color/bottom_navigation_select_text"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btn_BanChayNhat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Bán chạy nhất"
+                android:textAllCaps="false"
+                android:textColor="@color/bottom_navigation_select_text"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btn_MonMoi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="?android:attr/selectableItemBackground"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Món mới"
+                android:textAllCaps="false"
+                android:textColor="@color/bottom_navigation_select_text"
+                android:textSize="18dp" />
+        </TableRow>
+    </TableLayout>
+
+<!--    Danh sách sán phẩm-->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView_sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/product_item"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MiuTeaApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_slide_title">CHÀO MỪNG ĐẾN VỚI MIUTEA</string>
+    <string name="second_slide_title">ORDER TRÀ SỮA MỌI LÚC, MỌI NƠI</string>
+    <string name="third_slide_title">ƯU ĐÃI HẤP DẪN CHO THÀNH VIÊN</string>
+    <string name="first_slide_desc">Bắt đầu hành trình khám phá thế giới trà sữa ngay hôm nay nhé!</string>
+    <string name="second_slide_desc">Với ứng dụng MiuTea bạn có thể tha hồ order trà sữa dù ở bất cứ nơi đâu và bất cứ khi nào chỉ với những thao tác đơn giản </string>
+    <string name="third_slide_desc">Đăng ký thành viên MiuTea ngay hôm nay để nhận được những ưu đãi hấp dẫn có một không hai nhé!</string>
+    <string name="_84" />
+    <string name="thucdon">Thực đơn</string>
+    <string name="uu_dai">Ưu đãi</string>
+    <string name="thongbao">Thông báo</string>
+    <string name="taikhoan">Tài khoản</string>
+    <string name="trang_ch">Trang chủ</string>
+    <string name="chonCuaHang">Chọn cửa hàng</string>
+    <string-array name="CuaHang">
+        <item>Trường ĐH Kinh tế - Luật</item>
+        <item>Trường ĐH Ngân Hàng</item>
+        <item>Vincom Thủ Đức</item>
+        <item>Trường ĐH Lê Văn Việt</item>
+    </string-array>
+
+
+</resources>

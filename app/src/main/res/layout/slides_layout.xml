@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="15dp">
+    <ImageView
+        android:id="@+id/img_slider"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/txt_sliderheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHÀO MỪNG ĐẾN VỚI MIUTEA"
+        android:textColor="#DB9A5E"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="25dp"/>
+    <TextView
+        android:id="@+id/txt_sliderdescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bắt đầu hành trình khám phá thế giới trà sữa ngay hôm nay nhé!"
+        android:textColor="@color/text_color"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="30dp"
+        />
+</LinearLayout>

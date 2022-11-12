@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChoxacnhanFragment"
+    android:background="#FFFAF5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:id="@+id/imv_PhotoChoxacnhan"
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:src="@drawable/hong_tra_ngu_coc_kem_cf"
+            android:paddingTop="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_NameChoxacnhan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Hồng trà ngũ cốc kem cà phê"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:id="@+id/txt_SizeChoxacnhan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Size M, 70% đường, 50% đá, trân châu đường đen"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="13sp"/>
+            <TextView
+                android:id="@+id/txt_SoluongChoxacnhan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="x1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="end"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/txt_PriceChoxacnhan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="40.000 đ"
+                android:textStyle="bold"
+                android:gravity="end"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="15sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F3831B"
+        android:layout_gravity="end"
+        android:text="Hủy đơn"
+        android:layout_marginEnd="10dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+</LinearLayout>

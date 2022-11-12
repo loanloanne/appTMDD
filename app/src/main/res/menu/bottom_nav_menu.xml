@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="@string/trang_ch"
+        android:icon="@drawable/home"/>
+    <item
+        android:id="@+id/menu"
+        android:title="@string/thucdon"
+        android:icon="@drawable/menu"/>
+    <item android:title="@string/uu_dai"
+        android:icon="@drawable/voucher"
+        android:id="@+id/voucher"/>
+    <item android:title="@string/thongbao"
+        android:icon="@drawable/noti"
+        android:id="@+id/noti"/>
+    <item android:title="@string/taikhoan"
+        android:icon="@drawable/account"
+        android:id="@+id/account"/>
+
+
+
+</menu>
